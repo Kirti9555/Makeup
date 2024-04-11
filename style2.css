@@ -1,0 +1,67 @@
+/* Reset Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Page Styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+form {
+	flex-basis: 100%;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #fff;
+}
+
+select {
+	display: block;
+	width: 100%;}

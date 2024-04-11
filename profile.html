@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Style by Kirti</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #f2f2f2;
+			padding: 10px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		h1 {
+			margin: 0;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: row;
+		}
+		
+		nav li {
+			margin: 0 10px;
+		}
+		
+		nav a {
+			text-decoration: none;
+			color: #333;
+			font-weight: bold;
+		}
+		
+		main {
+			margin: 20px;
+		}
+		
+		.profile {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		.profile-details {
+			margin-top: 20px;
+		}
+		
+		form {
+			display: flex;
+			flex-direction: column;
+		}
+		
+		label {
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		
+		input[type="text"],
+		input[type="email"],
+		input[type="password"] {
+			padding: 10px;
+			margin-bottom: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		
+		button[type="submit"] {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		button[type="submit"]:hover {
+			background-color: #666;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Kirti's Fashion World</h1>
+		<nav>
+			<ul>
+				<li><a href="makup.html">Home</a></li>
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="account.html">My Account</a></li>
+				<li><a href="logout.html">Logout</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="profile">
+			<h2>My Account</h2>
+			<div class="profile-details">
+				<form>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" value="John Doe">
+
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" value="johndoe@example.com">
+
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password">
+
+					<label for="confirm-password">Confirm Password:</label>
+					<input type="password" id="confirm-password" name="confirm-password">
+
+					<button type="submit">Update Profile</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>Best Makeup Products at lowest price</p>
+	</footer>
+</body>
+</html>

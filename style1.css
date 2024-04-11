@@ -1,0 +1,77 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+nav {
+	background-color: #444;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+section {
+	padding: 20px;
+}
+
+section h2 {
+	margin-bottom: 10px;
+}
+
+section form {
+	display: flex;
+	flex-direction: column;
+}
+
+section label {
+	margin-bottom: 5px;
+}
+
+section input[type="text"],
+section input[type="email"],
+section input[type="tel"] {
+	margin-bottom: 10px;
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+}
+
+section input[type="submit"] {
+	background-color: #222;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+section input[type="submit"]:hover {
+	background-color: #444;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Style By Kirti</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #f2f2f2;
+			padding: 10px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		h1 {
+			margin: 0;
+		}
+		
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: row;
+		}
+		
+		nav li {
+			margin: 0 10px;
+		}
+		
+		nav a {
+			text-decoration: none;
+			color: #333;
+			font-weight: bold;
+		}
+		
+		main {
+			margin: 20px;
+		}
+		
+		.logout {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		
+		form {
+			margin-top: 20px;
+		}
+		
+		button {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		button:hover {
+			background-color: #666;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Kirti's Fashion World</h1>
+		<nav>
+			<ul>
+				<li><a href="makup.html">Home</a></li>
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="account.html">My Account</a></li>
+				<li><a href="logout.html">Logout</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="logout">
+			<h2>Logout</h2>
+			<p>Are you sure you want to logout?</p>
+			<form action="logout.php" method="post">
+				<button type="submit">Logout</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Best Makeup Products at lowest price</p>
+	</footer>
+</body>
+</html>
